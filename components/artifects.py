@@ -37,8 +37,8 @@ def words_pickle_path():
 
 
 def json_file_path():
-    relative_path = "job_file.json"
-    absolute_path = "D:\msn\pycharm_projects\chatbotcoustom\job_file.json"
+    relative_path = "job_file_retifified.json"
+    absolute_path = "D:\msn\pycharm_projects\chatbotcoustom\job_file_retifified.json"
 
     if os.path.exists(relative_path):
         return relative_path
