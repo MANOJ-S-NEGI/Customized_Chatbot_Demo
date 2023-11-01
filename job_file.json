@@ -1,0 +1,139 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Namaste", "wadakam","ram ram", "om namah sivaye"],
+     "responses": ["Hi stranger", "Yebo yes, how can I help", "wadakam"," watsupp", "Namaste", "Hola", "Hey dude", "You again", "ram ram", "jai shri krishna"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": ["jhhfhhfhfv","5765ugg","yr6urfvucscrsdbgibvjj","ytvd","wzWEXRTSCDYVF","LIFUWEFPQNXFOQIW", "BGFOQP"],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you",  "Tell me about yourself", "You are"],
+      "responses": ["I am enginenova", "My name is enginenova", "You can call me nova for short", "I am enginenova, my friends call me nova", "enginenova is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help","what can you do"],
+       "responses": ["I can give you interesting facts about South Africa, Bharat (India), Dr.APJ Abdul Kalam,Food ,current issues around the word, travelling,  best seller book ,facts about space and mission"]
+      },
+     {"tag": "south_africa_info",
+      "patterns": ["South Africa", "What can you tell me about SA", "SA", "Tell me about SA", "What about SA", "What do you know about SA", "Tell me more about SA", "What can you tell me about South Africa", "Tell me about South Africa", "What about South Africa", "What do you know about South Africa", "Tell me more about South Africa"],
+      "responses": ["South Africa is the southern most country in Africa, it has a population of more than 59million people and covers an area of 1221 037m2. South Africa has 11 official languages. The currency used in ZAR our South African Rand which trades at about 15ZAR per 1USD."]
+      },
+      {"tag": "south_africa_facts",
+       "patterns": ["South Africa Facts", "SA Facts", "Give me some facts about SA", "Give me some facts about South Africa", "SA Facts", "SA interesting facts", "South Africa facts", "South Africa interesting facts", "Tell me something interesting"],
+       "responses": [
+         "South Africa is now the only country in the world to have hosted the Soccer, Cricket and Rugby World Cup!",
+         "Table Mountain in Cape Town is believed to be one of the oldest mountains in the world and one of the planet’s 12 main energy centres, radiating magnetic, electric or spiritual energy.",
+         "The Cape Floral Kingdom is one of the world’s six floral kingdoms – and the only one which is wholly contained within a single country.",
+         "Some countries have deserts; some have subtropical forests, right? South Africa has: deserts, wetlands, grasslands, bush, subtropical forests, mountains and escarpments.",
+         "South Africa’s drinking water is rated 3rd best in the world for being safe and ready to drink.",
+         "Water is not all there is to drink in this thirsty country! South Africa’s Cape Winelands have around 560 wineries and 4 400 primary producers. Included in the Cape Winelands region is Route 62, considered the longest wine route in the world. That alone is good reason to visit South Africa if you haven’t yet been!",
+         "What about beer? South African brewery SABMiller ranks – by volume – as the largest brewing company in the world. Saffers love their beer…but the real reason the brewery is so big? SABMiller also supplies up to 50% of China’s beer.",
+         "South Africa is the only country in the entire world that has voluntarily abandoned its nuclear weapons programme.",
+         "The world’s largest themed resort hotel in the world – The Palace of the Lost City – is found in South Africa. Surrounding the Palace is a 25 hectare manmade botanical jungle with almost 2 million plants, trees and shrubs.",
+         "South Africa is extremely rich in mining and minerals and considered the world’s leader with nearly 90% of all the platinum metals on earth and around 41% of all the world’s Gold!",
+         "South Africa is home to the oldest meteor scar in the world – the Vredefort Dome in a town called Parys. The site is a UNESCO World Heritage Site.",
+         "The South African Rovos Rail is considered the most luxurious train in the world.",
+         "South Africa is home to the highest commercial bungi jump in the world at 710 feet.",
+         "General Motors South Africa is the only place outside of the USA to build the Hummer H3!",
+         "Despite the country’s status as a democratic republic, the Province of KwaZulu-Natal has a monarchy, specially provided for by the Constitution. Goodwill Zwelithini kaBhekuzulu is the King of the Zulu Nation, has 27 kids and 6 wives and lives, literally, like a King!",
+         "There are more than 2000 shipwrecks off the South African coast, most dating back at least 500 years.",
+         "The oldest remains of modern humans were found in South Africa and are well over 160,000 years old.",
+         "The Karoo region in the Western Cape is home to some of the best fossils of early dinosaurs. In fact, it is estimated that some 80% of the mammalian fossils found to date were found in the Karoo.",
+         "SA has three capital cities: Pretoria is the Executive Capital, Cape Town the Legislative Capital and Bloemfontein the judicial Capital.",
+         "Can you think of any other place in the world where two Nobel Peace Prize winners lived on the same street? Both Nelson Mandela and Archbishop Desmond Tutu had houses on Vilakazi Street in Soweto"
+       ]
+      },
+
+	  {"tag":"Dr.APJ",
+	  "patterns":["apj", "dr apj", "APJ", "Abdul kalam azad", "Kalam", "11 President","11 president of india","Wings of Fire", "India 2020 - A Vision for the New Millennium", "My journey" ,"Ignited Minds"],
+	  "responses":["Born on 15th October 1931 at Rameswaram in Tamil Nadu, Dr. Avul Pakir Jainulabdeen Abdul Kalam, specialized in Aeronautical Engineering from Madras Institute of Technology",
+	  "Dr. Kalam made significant contribution as Project Director to develop India's first indigenous Satellite Launch Vehicle (SLV-III) which successfully injected the Rohini satellite in the near earth orbit in July 1980 and made India an exclusive member of Space Club.",
+	  "Dr. APJ was responsible for the evolution of ISRO's launch vehicle programme ,particularly the PSLV configuration.",
+	  "After working for two decades in ISRO and mastering launch vehicle technologies",
+	  "Dr. Kalam took up the responsibility of developing Indigenous Guided Missiles at Defence Research and Development Organisation as the Chief Executive of Integrated Guided Missile Development Programme (IGMDP).", 
+	  "Dr. APJ was responsible for the development and operationalisation of AGNI and PRITHVI Missiles and for building indigenous capability in critical technologies through networking of multiple institutions.",
+	  "Dr. APJ was the Scientific Adviser to Defence Minister and Secretary, Department of Defence Research & Development from July 1992 to December 1999. During this period Dr. APJ led to the weaponisation of strategic missile systems and the Pokhran-II nuclear tests in collaboration with Department of Atomic Energy, which made India a nuclear weapon State.",
+	  "Dr. APJ also gave thrust to self-reliance in defence systems by progressing multiple development tasks and mission projects such as Light Combat Aircraft.",
+	  "As Chairman of Technology Information, Forecasting and Assessment Council (TIFAC) and as an eminent scientist,Dr. APJ led the country with the help of 500 experts to arrive at Technology Vision 2020 giving a road map for transforming India from the present developing status to a developed nation.",
+	  "Dr. Kalam has served as the Principal Scientific Advisor to the Government of India, in the rank of Cabinet Minister, from November 1999 to November 2001 and was responsible for evolving policies, strategies and missions for many development applications.",
+	  "Dr. Kalam was also the Chairman, Ex-officio, of the Scientific Advisory Committee to the Cabinet (SAC-C) and piloted India Millennium Mission 2020.",
+	  "Dr. Kalam took up academic pursuit as Professor, Technology & Societal Transformation at Anna University, Chennai from November 2001 and was involved in teaching and research tasks. Above all Dr. APJ took up a mission to ignite the young minds for national development by meeting high school students across the country.",
+	  "In his literary pursuit four of Dr. Kalam's books - Wings of Fire, India 2020 - A Vision for the New Millennium, My journey and Ignited Minds - Unleashing the power within India have become household names in India and among the Indian nationals abroad. These books have been translated in many Indian languages.",
+	 "Dr. Kalam is one of the most distinguished scientists of India with the unique honour of receiving honorary doctorates from 30 universities and institutions. Dr. APJ has been awarded the coveted civilian awards - Padma Bhushan (1981) and Padma Vibhushan (1990) and the highest civilian award Bharat Ratna (1997). Dr. APJ is a recipient of several other awards and Fellow of many professional institutions.",
+	 "Dr. Kalam became the 11th President of India on 25th July 2002. His focus is on transforming India into a developed nation by 2020."]
+			  	  
+	  },
+	  {"tag":"space_and_mission",
+		 "patterns":["book","recommend books","good books"],
+		 "responses":["Sati - written by Minakshi jain","conundrum - - written by Anuj Dhar","Hindus in Hindu rashtra - written by Dr. Anand Ranganathan","sepians - written by Noah Harari","Quantum - written by Manjit Kumar",""]		
+		},
+				
+		{"tag":"space_and_mission",
+		 "patterns":["space","space mission","facts of space"],
+		 "responses":["China's Shenzhou 16 astronauts land safely after 5 months aboard Tiangong space station",
+		 "SpaceX launches 23 Starlink satellites on second attempt",
+		 "New Japanese spacecraft aims to explore the mysterious moons of Mars",
+		 "NASA's Artemis 2 mission is returning astronauts to the moon for the first time since 1972.",
+		 "Solar maximum will arrive sooner and last longer than previously expected, say scientists",
+		 "Aryabhata was the first satellite of ISRO, launched on 19 April 1975 with the help of Russia. Aryabhata was the famous astronomer who invented zero & discovered the approximate value of pi. Thus, the name was given to this satellite.",
+		 "Chandrayaan 1 – India’s first lunar mission launched in 2008 to collect scientific information about the moon’s mineralogy, geology & topography, making India the 4th country to host its flag on the moon. Few also consider the mission failed as ISRO lost contact with the spacecraft even before completing a year in space. This successful mission was followed by Chandrayaan 2 & Chandrayaan 3.",
+		 "India become forth country to land on moon surface and first to land on moon far side towards southern side",
+		 "Mangalyaan or MOM (2014) - No doubt that MOM or Mars Orbiter Mission is ISRO’s biggest achievement. To this date, India remains the only country to reach mars on its first attempt (in orbit, not landed) despite having a tight budget of INR 450 crore (even this amount was also not fully exhausted), which was the lowest to date. Overall, India is the 4th country to reach Mars after the US, Russia & Europe.",
+		 "ISRO is one of the six space agencies worldwide with the ability to build and launch satellites from its own soil. It created another world record for launching the greatest number of satellites in one go in a single mission in 2017 using the Indian rocket Polar Satellite Launch Vehicle from Andhra Pradesh. 101 were foreign satellites out of 104 satellites."
+		 ]		
+		},
+	    {"tag":"Bharat_Facts",
+		"patterns": ["Bharat Facts", "indian","India Facts", "Give me some facts about Bharat", "Give me some facts about India", "kailash", "Ganga interesting facts", "bharat that is india", "Indian interesting facts", "bhartiya interesting facts", "Tell me something interesting"],
+		"responses":["Bharat(India) is the seventh largest country in the world", 
+					  "By 2030 India is expected to overtake China as the country with the highest population" , 
+						"The Andaman Islands, off the East Coast of India in the Bay of Bengal, are much nearer to Myanmar than India",
+						"The longest river Bharat(india) is the Ganga",
+						"Digital penetration in bharatiya(indian) economy is top notch in the world",
+						"one of the interesting fact about Bharat(india) that the history of this country is all distored what is interesting in that is their indiginous people are doing even the schhol textbook all are fabricated histroy.",
+						"Bharat(india) share its border with Nepal, Bangladesh, China occupied tibet, pakistan",
+						"In Bharat(india)Nabakrishna Dev started Durga Puja at Shobhabazar Rajbari in 1757. After the battle of plassey before that durga puja was banned by the muslim rulers. This event is consider by hindu bangalis as liberation from mughal but britishers also oppressed them and that is another event",
+						"Ram Mohan Roy is all glorified india but the fact is he was like the british (angrez) agent who always emphsis on discarding the indian education and promoting the english text book which was all with distortion to destablize and capture the mind of indiginous people. one of the example which is wrong factual information, passed on to mind of  the indiginous people is, In December 1829, Lord William Bentinck, the first governor general of British-ruled India, banned sati, the ancient Hindu practice of a widow immolating herself on her husband's funeral pyre.",
+						"In Bharatiya(indian) history Tipu sultan is described as the hero but in actual he was the one who plundered the temple and imposed zaiya on idol worshipper.Mandyam Iyengars do not celebrate Deepavali even to this day, as on this day, several of their ancestors were killed by Tipu Sultan, men and women were paraded naked and curshed by the elephant. some how this event is like a scar in the mind of this community ",
+						"India got its Dominion status in 1947",
+						"The Indian Army is the world's largest–standing all–volunteer Army, comprising over 1.2 million active troops and 0.9 million reserve troops. In the first World War, 1.3 million Indian soldiers fought alongside the Allies. Over 74,000 troops were killed or went missing in action.",
+						"The 1999 Kargil war was another big achievement for India where the Indian Army recaptured several positions on the Indian side that were infiltrated by the Pakistani troops and militants. Around 3,000 Mujahideens and around 700 Pakistani troops were killed.",
+						"In 1982, the Indian Army built the highest bridge in the world named the Bailey Bridge. It is located between the Dras River and Suru River in the Ladakh Valley. The motto of the Indian Army is - Service Before Self.",
+						"The Siachen Glacier is of extreme importance to national security. It is also considered the deadliest battlefield in the world due to the climatic condition of the region. In Siachen glacier the temperature drops to below -60 degrees in winters. Apart from this there are constant threats of avalanches, crevasses on the glacier, high-speed winds.",
+						  "The Mundeshwari Devi Temple lies within the Kaimur district of Bihar. It is an ancient temple dedicated to worshipping the eternal duo of Shiva-Parvati. It is considered as one of the oldest temples in India, perhaps being as old as 625 CE. Built of stone, the temple architecture follows a rare octagonal plan. The main deities in the temple are Devi Mundeshwari and the four-faced Shiva linga. It also hosts murtis of Ganesha, Surya and Vishnu. It has been an official subject of archaeological study for some time now, dating certain inscriptions to 635 CE.",
+						  "The Kailasha or Kailashanatha temple is the largest monolithic rock-cut structure in the world located in cave 16 of Ellora Caves in Aurangabad, Maharashtra. Carved out of single basalt rock from Charanandri Hills, it is one of the exceptional temples of India owing to its massive size, amazing architecture and mind-boggling carvings. With its intricate designs on panels, monolithic pillars and statues of animals and deities, Kailasa Temple is an engineering marvel perfect for history and architecture lovers.",
+						  "Believed to have been constructed in the 7th century A.D by the Cholas, Adi Kumbeshwara Temple is one of the grandest and the oldest Shiva temple in the town. The temple has a magnificent architecture with the trademark style of the Cholas. It is dedicated to Lord Shiva and houses a unique Shiva lingam.",
+						  "Built during the 7th century, Shore Temple is one of the oldest South Indian temples constructed in the Dravidian style and depicts the royal taste of the Pallava dynasty. The work of the temple has been listed amongst the World Heritage Sites by UNESCO. It is located in Mahabalipuram and is one of the most photographed monuments in India situated on the shores of Bay of Bengal.",
+						  "Hoysala Temples now India's 42nd UNESCO's World Heritage site. The Sacred Ensembles of the Hoysala, the famed Hoysala temples of Belur, Halebid and Somananthpura in Karnataka have been added to the United Nations Educational, Scientific and Cultural Organization.",
+						  "the word hindoo/ gentoo/hendu is first described as,fair complexion, beauty, and military virtues, which are qualities befitting the lyrical persona of the Beloved [q.v.] with its combination of attractiveness and cruelty, Hindu is a strong expression of devotion, especially in love , beautiful face which are remarkable for their black color, are said to be Indian, such as the mole (ḵal: ḵāl-e hendu ‘black beauty spot’), the locks (ṭorra, zolf)and the pupils of the eyes [beloved who steal heart] but it was picked and distored and described hindu as ugly, (attractiveness with cruelty become)mean and (mole is now) blackish (Schimmel, 1974, p. 244), and even cunning[beloved who steal heart](cf., e.g., Hāfeẓ, Divān, no. 395, 1. 5: ḥilat-e Hendu)..  ",
+						  "In the Persian epic, Hindustan or Hend[discription of Bharatvarsha] is mentioned as a remote region on the eastern fringe of the inhabited world. According to Ferdowsi, this was the place where the mother of Faridun hid her child from Żaḥḥāk’s persecution; here also was the mountain where the miraculous bird Simorḡ raised the abandoned Zāl (cf. Boyce, EIr. I, p. 812, s.v. ALBORZ). In later epics, starting with Asadi’s Garšāsp-nāma, expeditions to Hend and Sarandib (Sri Lanka) feature prominently among the hero’s fantastic adventures, no doubt under the influence of popular stories about the Indian campaigns of Alexander the Great.",
+							"India is regarded as the vaccine manufacturing hub of the world, contributing 60% to the global vaccine supply.1 The country has the capacity to manufacture well over 3 billion coronavirus disease 2019 (COVID-19) vaccine doses annually."
+  					]
+		},
+	  	{"tag":"current_issues_around_word",
+		"patterns": ["war","current issues","current issues around word","Conflict","internation issues", "cuurent affairs", "international issue"],
+		
+		"responses":["MIDDLE EAST AND NORTH AFRICA: MORE THAN 45 ARMED CONFLICTS - This is, in numbers, the most affected region- more than 45 armed conflicts are currently taking place throughout the Middle East and North Africa in the following territories, Cyprus, Egypt, Iraq, Israel, Libya, Morocco, Palestine, Syria, Turkey, Yemen and Western Sahara.The majority are non-international (NIACs), involving a multitude of armed non-state actors and foreign interventions by Western powers, Russia, and neighbouring countries – except forthe NIACs taking place in Egypt and Turkey.Syria is the most affected country in the region.Several multiple and overlapping NIACs are taking place in the country – involving numerous armed groups who fight against the government and against each other  along with two military occupations and three international armed conflicts",
+					"AFRICA: MORE THAN 35 ARMED CONFLICTS - Africa comes second in the number of armed conflicts per region with more than 35 non-international armed conflicts (NIACs) taking place in Burkina Faso,Cameroon, the Central African Republic (CAR), the Democratic Republic of the Congo,Ethiopia, Mali, Mozambique, Nigeria, Senegal, Somalia, South Sudan and Sudan.Several armed groups – fighting against government forces and/or against each other’s – are involved in these conflicts.Western powers and/or neighbouring countries are intervening in the NIACs that take place in Burkina Faso, Mali, Mozambique, Nigeria, and Somalia.Central African Republic is on the top of the list with several NIACs involving multiple armed groups. The Government is involved in NIACs against a wide array of rebel groups, including the anti-Balaka and the ex-Séléka. There are also parallel non-international armed conflicts due to the infighting between various armed groups", 
+					"ASIA: 21 ARMED CONFLICTS - Asia is the theatre of 19 non-international armed conflicts (NIACs) involving 19 armed groups.These are happening in Afghanistan, India, Myanmar, Pakistan and The Philippines.Two international armed conflicts – between respectively India and Pakistan, and between India and China – are also taking place in the region.Pakistan and the Philippines are on the top of the list with six NIACs for each country.In Pakistan, governmental forces are fighting various armed groups acting throughout the territory, particularly Taliban-affiliated groups in the Federally Administered Tribal Areas and independence fighters in Balochistan. In the Philippines,most NIACs are taking place in the Mindanao region where government forces are fighting against several armed groups, including the Moro National Liberation Front, the Moro Islamic Liberation Front, the Bangsamoro Islamic Freedom Fighters, the Maute Group and the Abu Sayyaf Group",
+					"EUROPE: SEVEN ARMED CONFLICTS- The following military occupations constitute the majority of armed conflicts that are taking place in Europe, four out of seven conflicts.Russia is currently annexed Crimea , Transdniestria (Moldova), as well as South Ossetia and Abkhazia (Georgia),while Armenia is occupying parts of Nagorno Karabakh (Azerbaijan).Europe is also the theatre of an international armed conflict (IAC) between Ukraine and Russia,and of two non-international armed conflicts (NIACs) in Ukraine opposing governmental forces with the self-proclaimed People’s Republics of Donetsk and Luhansk in eastern Ukraine.Russia’s invasion of Ukraine did not change our classification of the armed conflicts in the region.Indeed, according to IHL criteria, there have been an IAC between Russia and Ukraine plus (NATO forces)and two NIACs in Ukraine since 2014. What has changed, since February 2022, is the intensity of the violence and its impact on the civilian population. This means, according to our analysis, that war crimes could already have taken place before March 2022",				
+					"In early October 2023, war broke out between Israel and Hamas,the militant Islamist group that has controlled Gaza since 2006.Hamas fighters fired rockets into Israel and stormed southern Israeli cities and towns across the border of the Gaza strip, killing and injuring hundreds of soldiers and civilians and taking dozens of hostages. The attack took Israel by surprise, though the state quickly mounted a deadly retaliatory operation.One day after the October 7 attack, the Israeli cabinet formally declared war against Hamas,followed by a directive from the defense minister to the Israeli Defense Forces (IDF)to carry out a complete siege of Gaza.Since then, the two sides have traded daily rocket fire, and Israel ordered more than one million Palestinian civilians in northern Gaza to evacuate ahead of a possible ground assault. Meanwhile, Gaza is running out of water, fuel, and supplies amid an Israeli aid blockade, and the conflict risks spreading as cross-border strikes escalate in Lebanon and Syria.",
+					"In 1974, Turkish forces descended upon Cyprus, routing towns and villages and sending their rightful inhabitants fleeing for their lives.This invasion and decades long illegal occupation of Cyprus,is a direct affront to Cyprus sovereignty.",
+					"Latin America : six non-international armed conflicts that are taking place in the region are split evenly between Mexico and Colombia.While Colombia has experienced one of the longest non-international armed conflicts (NIACs)in modern times and is still the theatre of three NIACs, Mexico is characterized by three NIACs involving gangs drug cartels. This is the first time we classify armed violence involving criminal organizations as NIACs and we did so given the level of organization of the cartels and intensity of violence."
+					]
+		}
+	]
+		
+
+}
+
+ 

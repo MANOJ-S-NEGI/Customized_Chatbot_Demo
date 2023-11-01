@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		form {
+			background-image: url("img_tree.png");
+			background-repeat: no-repeat;
+			background-position: 90% 40%;
+			margin-right: 10px;
+		}
+
+		fieldset {
+			font-size: 12px;
+			padding: 100px;
+			max-width: 900px; /* Set max width to control the form width */
+			margin: auto; /* Center the form */
+		}
+
+		legend {
+			background-color: #fff;
+			color: #000;
+			padding: 0.5px;
+		}
+
+		select {
+			padding: 1px;
+			font-size: 16px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			width: 10%; /* Make the select box full width */
+		}
+
+		input[type="submit"] {
+			padding: 10px 20px;
+			font-size: 16px;
+			border-radius: 5px;
+			border: none;
+			background-color: #76D7C8;
+			color: black;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #808081; /* Darken the background on hover */
+		}
+
+		textarea {
+			font-size: 1rem;
+			letter-spacing: 1px;
+			padding: 10px;
+			max-width: 80%;
+
+			width: 100%; /* Make the textarea full width */
+
+			min-height: 10px;
+
+			line-height: 1.5;
+			border-radius: 20px;
+			border: 5px solid #ccc;
+			box-shadow: 10px 10px 10px #999;
+			margin-bottom: 10px; /* Add some space between textarea and button */
+		}
+	</style>
+</head>
+
+<body>
+	<form action="{{url_for('predict')}}" method="Post" onsubmit="clearTextArea(event)">
+		<fieldset>
+			<legend><h2 style="font-size: 20px;">Custom Chatbot Demo </h2></legend>
+
+			<strong><p style="font-family: 'Fantasy', monospace; font-size: 20px; color: grey;">demo NLP chatbot models trained for few conversation </p></strong>
+			<strong><b>let's start with "hello" or "help"<b></strong>
+			<br>
+			<br>
+			<textarea id="textarea" name="textarea" required='required'></textarea>
+				<br>
+			<input type="submit" value="Enter" id="submit-button"> <br><br>
+
+			<div id="messages"></div>
+		</fieldset>
+	</form>
+
+	<script>
+		document.getElementById("textarea").addEventListener("keydown", function(event) {
+			if (event.key === "Enter" && !event.shiftKey) {
+				event.preventDefault(); // Prevent the default "Enter" behavior (new line)
+				document.getElementById("submit-button").click(); // Trigger the submit button click
+			}
+		});
+
+		function clearTextArea(event) {
+			event.preventDefault(); // Prevent the form from submitting the traditional way
+
+			var textarea = document.getElementById("textarea");
+			var userMessage = "user: " + textarea.value;
+
+			// Make a request to your server to get the bot's response
+			fetch("{{url_for('predict')}}", {
+				method: "POST",
+				body: new FormData(event.target)
+			})
+			.then(response => response.text())
+			.then(data => {
+				var botMessage = "bot: " + data;
+				displayMessages(userMessage, botMessage);
+				textarea.value = ""; // Clear the textarea
+			})
+			.catch(error => console.error("Error:", error));
+		}
+
+		function displayMessages(userMessage, botMessage) {
+			var messagesDiv = document.getElementById("messages");
+
+			var userDiv = document.createElement("div");
+			userDiv.innerHTML = "<h3>" + userMessage + "</h3>";
+			messagesDiv.appendChild(userDiv);
+
+			var botDiv = document.createElement("div");
+			botDiv.innerHTML = "<h3>" + botMessage + "</h3>";
+			messagesDiv.appendChild(botDiv);
+		}
+	</script>
+</body>
+</html>
